@@ -8,17 +8,34 @@
     <style>
         #container {
             background-image: url(imagens/espaco.jpg);
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 94.8vh;
+            padding: 10px;
+            background-color: purple;
+            
         }
 
         #conteudo {
-           background-color: blue;
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 500px;
+            width: 500px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
     <section id="container">
         <article id="conteudo">
-            
+
         </article>
     </section>
 </body>
